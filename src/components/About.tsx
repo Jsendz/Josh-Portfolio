@@ -1,7 +1,9 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Download, User, Code, Coffee } from 'lucide-react';
+import { Download, User, Code } from 'lucide-react';
+import Image from 'next/image';
+
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,10 +46,12 @@ const About = () => {
           }`}>
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-blue-100 to-green-100 shadow-2xl overflow-hidden">
-                <img
+                <Image
                   src="/josh-pic.jpg"
                   alt="Josh Hall"
                   className="w-full h-full object-cover"
+                  width={300}
+                  height={300}
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center">
