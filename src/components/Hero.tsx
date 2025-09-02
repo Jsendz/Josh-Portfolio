@@ -38,7 +38,7 @@ const Hero = () => {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              <span className="block text-center">Hi!, I'm</span>
+              <span className="block text-center">Hi!, I&apos;m</span>
               <span className="block text-slate-800 text-center">Josh Hall</span>
             </h1>
             

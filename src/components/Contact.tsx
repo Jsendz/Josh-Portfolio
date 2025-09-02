@@ -75,7 +75,7 @@ const Contact = () => {
         }`}>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm always open to discussing new opportunities and interesting projects
+            I&apos;m always open to discussing new opportunities and interesting projects
           </p>
         </div>
 
@@ -104,10 +104,10 @@ const Contact = () => {
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-sm">
-              <h4 className="font-semibold text-gray-900 mb-4">Let's Connect</h4>
+              <h4 className="font-semibold text-gray-900 mb-4">Let&apos;s Connect</h4>
               <p className="text-gray-600 mb-4">
-                I'm currently looking for new opportunities and interesting projects. 
-                Whether you have a question or just want to say hello, I'll try my best to get back to you!
+                I&apos;m currently looking for new opportunities and interesting projects. 
+                Whether you have a question or just want to say hello, I&apos;ll try my best to get back to you!
               </p>
               <div className="flex space-x-4">
                 <a

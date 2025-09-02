@@ -68,7 +68,7 @@ const About = () => {
             
             <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
-                I'm a passionate Frontend Developer with 2+ years of experience creating 
+                I&apos;m a passionate Frontend Developer with 2+ years of experience creating 
                 beautiful, responsive web applications. I specialize in Next.js, React, TypeScript, 
                 and modern CSS frameworks to deliver exceptional user experiences.
               </p>
@@ -80,7 +80,7 @@ const About = () => {
               </p>
               
               <p>
-                When I'm not coding, you'll find me exploring new technologies, and contribting on projects. 
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, and contribting on projects. 
                 
               </p>
             </div>
