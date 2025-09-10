@@ -156,7 +156,7 @@ const Contact = () => {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/joshua-sendzul-14535383/"
                   className="text-blue-600 hover:text-blue-700 transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -164,7 +164,7 @@ const Contact = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Jsendz"
                   className="text-blue-600 hover:text-blue-700 transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"

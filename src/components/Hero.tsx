@@ -73,7 +73,7 @@ const Hero = () => {
 
             <div className="flex space-x-6 justify-center">
               <a
-                href="https://github.com"
+                href="https://github.com/Jsendz"
                 className="text-gray-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -81,7 +81,7 @@ const Hero = () => {
                 <Github size={28} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/joshua-sendzul-14535383/"
                 className="text-gray-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
