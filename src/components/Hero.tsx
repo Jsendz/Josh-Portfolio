@@ -43,7 +43,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed text-center ">
-              Frontend Developer crafting beautiful, <br/> responsive web experiences with modern technologies
+              Frontend Developer crafting <br/> responsive web experiences with modern technologies
             </p>
 
             <div className="flex flex-col justify-center sm:flex-row gap-4 mb-12">
