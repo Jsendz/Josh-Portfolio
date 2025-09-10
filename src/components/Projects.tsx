@@ -31,63 +31,37 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack website built with Wordpress',
-      image: '/hilltop.png',
-      technologies: ['Wordpress'],
-      liveUrl: 'https://hilltop-agency.com',
-      date: '2024'
+      title: 'T-Sender Clone',
+      description: 'React/NextJS Static Site - Token Airdropper UI',
+      image: '/tsender.png',
+      technologies: ['Next.js', 'TypeScript',  'Solidity', ],
+      liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
+      githubUrl: 'https://github.com/Jsendz/TSender',
+      date: '2025'
     },
+    
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Agency Website',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: '/ecco.png',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Socket.io'],
-      liveUrl: 'https://ecco.studio',
-      githubUrl: 'https://github.com',
+      image: '/jhcorporate.png',
+      technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
+      liveUrl: 'https://www.jhcorporateservices.com/en',
+      githubUrl: 'https://github.com/Jsendz/JH-Corporate',
       date: '2024'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that displays current conditions, forecasts, and interactive maps with location-based services.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'TypeScript', 'OpenWeather API', 'Chart.js', 'Geolocation'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-      date: '2023'
+      title: 'Digital Agency Website',
+      description: 'Full-stack Digital Agency website',
+      image: '/jhdigital.png',
+      technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
+      liveUrl: 'https://www.jhdigitalservices.com/en',
+      githubUrl: 'https://github.com/Jsendz/JH-Digital-Services',
+      date: '2025'
     },
-    {
-      id: 4,
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website showcasing my work and skills with smooth animations and interactive elements.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-      date: '2023'
-    },
-    {
-      id: 5,
-      title: 'Recipe Finder App',
-      description: 'A recipe discovery application with search functionality, meal planning, and grocery list generation features.',
-      image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Redux', 'Spoonacular API', 'Material-UI', 'Firebase'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-      date: '2023'
-    },
-    {
-      id: 6,
-      title: 'Social Media Dashboard',
-      description: 'A comprehensive social media analytics dashboard with data visualization and reporting capabilities.',
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Vue.js', 'D3.js', 'Express', 'MySQL', 'JWT'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-      date: '2022'
-    },
+    
+   
   ];
 
   return (

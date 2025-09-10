@@ -45,13 +45,13 @@ const About = () => {
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
           }`}>
             <div className="relative">
-              <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-blue-100 to-green-100 shadow-2xl overflow-hidden">
+              <div className="w-[350px] h-[400px] mx-auto rounded-2xl bg-transparent  overflow-hidden">
                 <Image
-                  src="/josh-pic.jpg"
+                  src="/josh-pic.png"
                   alt="Josh Hall"
-                  className="w-full h-full object-cover"
-                  width={300}
-                  height={300}
+                  className="w-full h-full object-contain shadow-2xl"
+                  width={400}
+                  height={400}
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center">
@@ -69,8 +69,8 @@ const About = () => {
             <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
                 I&apos;m a passionate Frontend Developer with 2+ years of experience creating 
-                beautiful, responsive web applications. I specialize in Next.js, React, TypeScript, 
-                and modern CSS frameworks to deliver exceptional user experiences.
+                 responsive web applications. I specialize in Next.js, React, TypeScript, 
+                and modern CSS frameworks to deliver great user experiences.
               </p>
               
               <p>
@@ -79,10 +79,7 @@ const About = () => {
                 staying up-to-date with the latest web technologies and best practices.
               </p>
               
-              <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new technologies, and contribting on projects. 
-                
-              </p>
+              
             </div>
 
             <div className="mt-8 flex flex-wrap gap-6">
