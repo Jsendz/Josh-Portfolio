@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Portfolio Contact <joshhall.digital>', // Use resend's domain for testing
+      from: 'Portfolio Contact <contact@joshhall.digital>', // Use resend's domain for testing
       to: ['joshsendzulhall@gmail.com'], // Fixed the double .com
       subject: `Portfolio Contact: ${subject}`,
       html: `
