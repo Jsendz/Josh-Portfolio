@@ -31,13 +31,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'T-Sender Clone',
-      description: 'React/NextJS Static Site - Token Airdropper UI',
+      title: 'Ecco Studio',
+      description: 'Framer',
       image: '/tsender.png',
-      technologies: ['Next.js', 'TypeScript',  'Solidity', ],
-      liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
-      githubUrl: 'https://github.com/Jsendz/TSender',
-      date: '2025'
+      technologies: ['Framer', 'Figma' ],
+      liveUrl: 'https://ecco.studio/',
+      
+      date: '2024'
     },
     
     {
@@ -60,6 +60,16 @@ const Projects = () => {
       githubUrl: 'https://github.com/Jsendz/JH-Digital-Services',
       date: '2025'
     },
+    {
+      id: 4,
+      title: 'T-Sender Clone',
+      description: 'React/NextJS Static Site - Token Airdropper UI',
+      image: '/tsender.png',
+      technologies: ['Next.js', 'TypeScript',  'Solidity', ],
+      liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
+      githubUrl: 'https://github.com/Jsendz/TSender',
+      date: '2025'
+    }
     
    
   ];
