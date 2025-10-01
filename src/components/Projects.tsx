@@ -33,7 +33,7 @@ const Projects = () => {
       id: 1,
       title: 'Ecco Studio',
       description: 'Framer',
-      image: '/tsender.png',
+      image: '/ecco.png',
       technologies: ['Framer', 'Figma' ],
       liveUrl: 'https://ecco.studio/',
       
