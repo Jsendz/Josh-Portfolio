@@ -38,12 +38,12 @@ const Hero = () => {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              <span className="block text-center">Hi!, I&apos;m</span>
+              <span className="block text-center">Salut, je suis</span>
               <span className="block text-slate-800 text-center">Josh Hall</span>
             </h1>
             
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed text-center ">
-              Frontend Developer crafting <br/> responsive web experiences with modern technologies
+              Développeur Frontend créant <br/> des expériences web responsives avec des technologies modernes
             </p>
 
             <div className="flex flex-col justify-center sm:flex-row gap-4 mb-12">
@@ -51,14 +51,14 @@ const Hero = () => {
                 onClick={scrollToAbout}
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
-                View My Work
+                Voir mon travail
               </button>
               
               <a
                 href="#contact"
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all duration-200"
               >
-                Get In Touch
+                Me contacter
               </a>
               
               <a
@@ -67,7 +67,7 @@ const Hero = () => {
                 className="flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all duration-200"
               >
                 <Download size={20} />
-                <span>Resume</span>
+                <span>CV</span>
               </a>
             </div>
 

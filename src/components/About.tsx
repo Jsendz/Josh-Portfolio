@@ -27,8 +27,8 @@ const About = () => {
   }, []);
 
   const stats = [
-    { icon: <Code size={24} />, value: '2+', label: 'Years Experience' },
-    { icon: <User size={24} />, value: '10+', label: 'Projects Completed' },
+    { icon: <Code size={24} />, value: '2+', label: 'années expérience' },
+    { icon: <User size={24} />, value: '10+', label: 'projets réalisés' },
     
   ];
 
@@ -64,19 +64,15 @@ const About = () => {
           <div className={`transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
           }`}>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">À propos de moi</h2>
             
             <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
-                I&apos;m a passionate Frontend Developer with 2+ years of experience creating 
-                 responsive web applications. I specialize in Next.js, React, TypeScript, 
-                and modern CSS frameworks to deliver great user experiences.
+                Je suis un développeur frontend passionné avec plus de 2 ans d&apos;expérience dans la création d&apos;applications web responsives. Je me spécialise en Next.js, React, TypeScript et frameworks CSS modernes afin d&apos;offrir de grandes expériences utilisateur.
               </p>
               
               <p>
-                My journey in web development started with a curiosity for how things work 
-                on the internet. Today, I focus on writing clean, maintainable code and 
-                staying up-to-date with the latest web technologies and best practices.
+                Mon parcours dans le développement web a commencé par une curiosité pour le fonctionnement d&apos;internet. Aujourd&apos;hui, je me concentre sur l&apos;écriture d&apos;un code propre et maintenable, ainsi que sur le fait de rester à jour avec les dernières technologies web et les bonnes pratiques
               </p>
               
               
@@ -101,7 +97,7 @@ const About = () => {
                 className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 <Download size={20} />
-                <span>Download Resume</span>
+                <span>Télécharger le CV</span>
               </a>
             </div>
           </div>

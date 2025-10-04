@@ -82,9 +82,9 @@ const Skills = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Skills & Technologies</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Compétences & Technologies</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Here are the technologies I work with to create amazing web experiences
+            Voici les technologies que j&apos;utilise pour créer des expériences web remarquables :
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const Skills = () => {
           <div className={`transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
           }`}>
-            <h3 className="text-2xl font-bold text-gray-800 mb-8">Proficiency</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-8">Niveau</h3>
             <div className="space-y-6">
               {skills.map((skill, index) => (
                 <div key={skill.name} className="relative">

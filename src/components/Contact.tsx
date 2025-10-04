@@ -109,7 +109,7 @@ const Contact = () => {
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      link: 'tel:+76612400'
+      link: 'tel:+376612400'
     },
   ];
 
@@ -119,9 +119,9 @@ const Contact = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I&apos;m always open to discussing new opportunities and interesting projects
+            Je suis toujours ouvert à discuter de nouvelles opportunités et de projets intéressants.
           </p>
         </div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
           <div className={`transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
           }`}>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Informations de contact</h3>
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <a
@@ -151,8 +151,7 @@ const Contact = () => {
             <div className="mt-8 p-6 bg-white rounded-lg shadow-sm">
               <h4 className="font-semibold text-gray-900 mb-4">Let&apos;s Connect</h4>
               <p className="text-gray-600 mb-4">
-                I&apos;m currently looking for new opportunities and interesting projects. 
-                Whether you have a question or just want to say hello, I&apos;ll try my best to get back to you!
+                Je recherche actuellement de nouvelles opportunités et des projets passionnants. Si vous avez une question ou souhaitez simplement dire bonjour, je ferai de mon mieux pour vous répondre rapidement.
               </p>
               <div className="flex space-x-4">
                 <a
@@ -276,7 +275,7 @@ const Contact = () => {
                 ) : (
                   <>
                     <Send size={20} />
-                    <span>Send Message</span>
+                    <span>Envoyer le message</span>
                   </>
                 )}
               </button>

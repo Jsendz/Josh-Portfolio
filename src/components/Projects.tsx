@@ -32,7 +32,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'Ecco Studio',
-      description: 'Framer',
+      description: 'Creative Agency',
       image: '/ecco.png',
       technologies: ['Framer', 'Figma' ],
       liveUrl: 'https://ecco.studio/',
@@ -43,7 +43,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'Agency Website',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      description: 'Agence en Andorre qui offre des ervices de residence et création de société',
       image: '/jhcorporate.png',
       technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
       liveUrl: 'https://www.jhcorporateservices.com/en',
@@ -53,7 +53,7 @@ const Projects = () => {
     {
       id: 3,
       title: 'Digital Agency Website',
-      description: 'Full-stack Digital Agency website',
+      description: 'Agence Digitale Full-Stack',
       image: '/jhdigital.png',
       technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
       liveUrl: 'https://www.jhdigitalservices.com/en',
@@ -63,7 +63,7 @@ const Projects = () => {
     {
       id: 4,
       title: 'T-Sender Clone',
-      description: 'React/NextJS Static Site - Token Airdropper UI',
+      description: 'React/NextJS Static Site - Token Airdropper UI Crypto',
       image: '/tsender.png',
       technologies: ['Next.js', 'TypeScript',  'Solidity', ],
       liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
@@ -81,9 +81,9 @@ const Projects = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Projets récents</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Here are some of my recent projects that showcase my skills and expertise
+            Voici quelques-uns de mes projets les plus récents mettant en valeur mes compétences et mon expérience :
           </p>
         </div>
 
