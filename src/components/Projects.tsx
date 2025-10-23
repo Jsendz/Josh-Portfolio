@@ -2,12 +2,14 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { ExternalLink, Github, Calendar } from 'lucide-react';
+import {useTranslations} from 'next-intl';
 
 
 
 
 
 const Projects = () => {
+ const t = useTranslations('projects');
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -43,7 +45,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'Agency Website',
-      description: 'Agence en Andorre qui offre des ervices de residence et création de société',
+      description: t('description1'),
       image: '/jhcorporate.png',
       technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
       liveUrl: 'https://www.jhcorporateservices.com/en',
@@ -53,7 +55,7 @@ const Projects = () => {
     {
       id: 3,
       title: 'Digital Agency Website',
-      description: 'Agence Digitale Full-Stack',
+      description: t('description2'),
       image: '/jhdigital.png',
       technologies: ['Next.js', 'TypeScript', 'Tailwindcss' ],
       liveUrl: 'https://www.jhdigitalservices.com/en',
@@ -81,9 +83,9 @@ const Projects = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Projets récents</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('heading')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Voici quelques-uns de mes projets les plus récents mettant en valeur mes compétences et mon expérience :
+            {t('intro')}
           </p>
         </div>
 

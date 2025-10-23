@@ -3,9 +3,11 @@
 import { useState, useEffect, useRef } from 'react';
 import { Download, User, Code } from 'lucide-react';
 import Image from 'next/image';
+import {useTranslations} from 'next-intl';
 
 
 const About = () => {
+  const t = useTranslations('about');
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -27,8 +29,8 @@ const About = () => {
   }, []);
 
   const stats = [
-    { icon: <Code size={24} />, value: '2+', label: 'années expérience' },
-    { icon: <User size={24} />, value: '10+', label: 'projets réalisés' },
+    { icon: <Code size={24} />,  label: t('experience') },
+    { icon: <User size={24} />,  label: t('projects') },
     
   ];
 
@@ -64,15 +66,15 @@ const About = () => {
           <div className={`transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
           }`}>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">À propos de moi</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('heading')}</h2>
             
             <div className="space-y-4 text-gray-500 leading-relaxed">
               <p>
-                Je suis un développeur frontend passionné avec plus de 2 ans d&apos;expérience dans la création d&apos;applications web responsives. Je me spécialise en Next.js, React, TypeScript et frameworks CSS modernes afin d&apos;offrir de grandes expériences utilisateur.
+                {t('text')}
               </p>
               
               <p>
-                Mon parcours dans le développement web a commencé par une curiosité pour le fonctionnement d&apos;internet. Aujourd&apos;hui, je me concentre sur l&apos;écriture d&apos;un code propre et maintenable, ainsi que sur le fait de rester à jour avec les dernières technologies web et les bonnes pratiques
+                {t('journey')}
               </p>
               
               
@@ -83,7 +85,7 @@ const About = () => {
                 <div key={index} className="flex items-center space-x-3">
                   <div className="text-blue-600">{stat.icon}</div>
                   <div>
-                    <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
+                    
                     <div className="text-sm text-gray-600">{stat.label}</div>
                   </div>
                 </div>

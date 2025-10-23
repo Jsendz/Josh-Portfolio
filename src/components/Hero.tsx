@@ -2,6 +2,7 @@
 
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import {useTranslations} from 'next-intl';
 
 
 
@@ -9,6 +10,7 @@ import { useEffect, useState } from 'react';
 
 
 const Hero = () => {
+  const t = useTranslations('hero');
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -38,12 +40,15 @@ const Hero = () => {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              <span className="block text-center">Salut, je suis</span>
-              <span className="block text-slate-800 text-center">Josh Hall</span>
+              <span className="block text-center">{t('greeting')}</span>
+              <span className="block text-slate-800 text-center">{t('greeting2')}</span>
             </h1>
             
+            <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed text-center ">
+              {t('tagline1')}
+            </p>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed text-center ">
-              Développeur Frontend créant <br/> des expériences web responsives avec des technologies modernes
+               {t('tagline2')}
             </p>
 
             <div className="flex flex-col justify-center sm:flex-row gap-4 mb-12">
@@ -51,14 +56,14 @@ const Hero = () => {
                 onClick={scrollToAbout}
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
-                Voir mon travail
+               {t('viewWork')}
               </button>
               
               <a
                 href="#contact"
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all duration-200"
               >
-                Me contacter
+               {t('getInTouch')}
               </a>
               
               <a

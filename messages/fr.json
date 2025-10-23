@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "greeting": "Salut ! Je suis",
+    "greeting2": "Josh Hall",
+    "tagline1": "Développeur Frontend créant ",
+    "tagline2":"des expériences web réactives avec des technologies modernes",
+    
+      "viewWork": "Voir Mon Travail",
+      "getInTouch": "Me Contacter",
+      "downloadResume": "Télécharger le CV"
+    
+  },
+  "about": {
+    "heading": "À propos de moi",
+    "text": "Je suis un développeur frontend passionné avec plus de deux ans d’expérience dans la création d’applications web réactives. Je me spécialise dans Next.js, React, TypeScript et les frameworks CSS modernes pour offrir d’excellentes expériences utilisateur.",
+    "journey": "Mon parcours dans le développement web a commencé par une curiosité pour comprendre comment les choses fonctionnent sur Internet. Aujourd’hui, je me concentre sur l’écriture d’un code propre, maintenable et sur la mise à jour constante de mes connaissances des dernières technologies et meilleures pratiques web.",
+   
+      "experience": "Plus de 2 ans d’expérience",
+      "projects": "Plus de 10 projets réalisés"
+    
+  },
+  "skills": {
+    "heading": "Compétences et Technologies",
+    "intro": "Voici les technologies que j’utilise pour créer des expériences web exceptionnelles",
+    "proficiencyHeading": "Niveau de maîtrise",
+    "proficiency": {
+      "react": "React 90 %",
+      "typescript": "TypeScript 90 %",
+      "nextjs": "Next.js 85 %",
+      "tailwind": "Tailwind CSS 92 %",
+      "solidity": "Solidity 70 %"
+    },
+    "technologiesHeading": "Technologies",
+    "technologiesList": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Figma",
+      "Blockchain",
+      "Solidity",
+      "Vite"
+    ]
+  },
+  "projects": {
+    "heading": "Projets en vedette",
+    "intro": "Voici quelques-uns de mes projets récents mettant en valeur mes compétences et mon expertise",
+    
+        "description1": "Page Web Full Stack",
+      
+     
+        "description2": "Site web d’agence digitale full-stack · Next.js · TypeScript · Tailwind CSS"
+      
+      
+  },
+  "contact": {
+    "heading": "Me Contacter",
+    "intro": "Je suis toujours ouvert à discuter de nouvelles opportunités et de projets intéressants",
+    "subheading": "Informations de contact",
+    "let":"Contactez-moi",
+    "paragraph": "Je recherche actuellement de nouvelles opportunités et des projets passionnants. Que vous ayez une question ou que vous souhaitiez simplement dire bonjour, je ferai de mon mieux pour vous répondre !",
+    
+
+      "sendButton": "Envoyer le message",
+    
+    "footer": "© 2025 Joshua Sendzul. Tous droits réservés."
+  },
+
+  "LocaleSwitcher": {
+    "label": "Langage",
+    "locale": "{locale, select, es {Spanish} en {English} fr {French} other {Unknown}}"
+},
+
+"nav": {
+  "ini":"Acceuil",
+  "about":"A Propos de moi",
+  "skills": "Compétences",
+  "proj":"Projets",
+  "con":"Contact"
+}
+}

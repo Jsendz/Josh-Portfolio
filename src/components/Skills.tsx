@@ -12,11 +12,13 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
 import { SiSolidity } from "react-icons/si";
+import {useTranslations} from 'next-intl';
 
 
 
 
 const Skills = () => {
+  const t = useTranslations('skills');
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -82,9 +84,9 @@ const Skills = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Compétences & Technologies</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">{t('heading')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Voici les technologies que j&apos;utilise pour créer des expériences web remarquables :
+            {t('intro')}
           </p>
         </div>
 
@@ -119,7 +121,7 @@ const Skills = () => {
           <div className={`lg:col-span-1 transform transition-all duration-1000 delay-400 ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
           }`}>
-            <h3 className="text-2xl font-bold text-gray-800 mb-8">Technologies</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-8">{t('technologiesHeading')}</h3>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 pt-10">
               {technologies.map((tech, index) => (

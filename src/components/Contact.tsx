@@ -2,8 +2,10 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, Send, CheckCircle, XCircle } from 'lucide-react';
+import {useTranslations} from 'next-intl';
 
 const Contact = () => {
+  const t = useTranslations('contact');
   const [isVisible, setIsVisible] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
@@ -119,9 +121,9 @@ const Contact = () => {
         <div className={`text-center mb-16 transform transition-all duration-1000 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('heading')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Je suis toujours ouvert à discuter de nouvelles opportunités et de projets intéressants.
+            {t('intro')}
           </p>
         </div>
 
@@ -130,7 +132,7 @@ const Contact = () => {
           <div className={`transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
           }`}>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Informations de contact</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">{t('subheading')}</h3>
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <a
@@ -149,9 +151,9 @@ const Contact = () => {
             </div>
 
             <div className="mt-8 p-6 bg-white rounded-lg shadow-sm">
-              <h4 className="font-semibold text-gray-900 mb-4">Let&apos;s Connect</h4>
+              <h4 className="font-semibold text-gray-900 mb-4">{t('let')}</h4>
               <p className="text-gray-600 mb-4">
-                Je recherche actuellement de nouvelles opportunités et des projets passionnants. Si vous avez une question ou souhaitez simplement dire bonjour, je ferai de mon mieux pour vous répondre rapidement.
+                {t('paragraph')}
               </p>
               <div className="flex space-x-4">
                 <a
@@ -275,7 +277,7 @@ const Contact = () => {
                 ) : (
                   <>
                     <Send size={20} />
-                    <span>Envoyer le message</span>
+                    <span>{t('sendButton')}</span>
                   </>
                 )}
               </button>

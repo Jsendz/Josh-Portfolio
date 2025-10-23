@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "greeting": "Hi!, I'm ",
+    "greeting2": "Josh Hall",
+    "tagline": "Frontend Developer crafting ",
+    "tagline2":"responsive web experiences with modern technologies",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "downloadResume": "Download Resume"
+
+  },
+  "about": {
+    "heading": "About Me",
+    "text": "I'm a passionate Frontend Developer with 2+ years of experience creating responsive web applications. I specialize in Next.js, React, TypeScript, and modern CSS frameworks to deliver great user experiences.",
+    "journey": "My journey in web development started with a curiosity for how things work on the internet. Today, I focus on writing clean, maintainable code and staying up-to-date with the latest web technologies and best practices.",
+    
+      "experience": "2+ Years Experience",
+      "projects": "10+ Projects Completed"
+    
+  },
+  "skills": {
+    "heading": "Skills & Technologies",
+    "intro": "Here are the technologies I work with to create amazing web experiences",
+    "proficiencyHeading": "Proficiency",
+    "proficiency": {
+      "react": "React 90%",
+      "typescript": "TypeScript 90%",
+      "nextjs": "Next.js 85%",
+      "tailwind": "Tailwind CSS 92%",
+      "solidity": "Solidity 70%"
+    },
+    "technologiesHeading": "Technologies",
+    "technologiesList": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Figma",
+      "Blockchain",
+      "Solidity",
+      "Vite"
+    ]
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "intro": "Here are some of my recent projects that showcase my skills and expertise",
+    
+     
+      
+        "description1": "Full Stack Website.",
+      
+      
+        "description2": "Full-stack Digital Agency website · Next.js · TypeScript · Tailwindcss"
+    
+     
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "intro": "I'm always open to discussing new opportunities and interesting projects",
+    "subheading": "Contact Information",
+    "let":"Let's Connect",
+    "paragraph": "I'm currently looking for new opportunities and interesting projects. Whether you have a question or just want to say hello, I'll try my best to get back to you!",
+   
+      "sendButton": "Send Message",
+
+    "footer": "© 2025 Joshua Sendzul. All rights reserved."
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Spanish} en {English} fr {French} other {Unknown}}"
+},
+
+"nav": {
+  "ini":"Home",
+  "about":"About",
+  "skills": "Skills",
+  "proj":"Projects",
+  "con":"Contact"
+}
+
+}
