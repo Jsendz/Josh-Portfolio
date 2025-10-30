@@ -94,7 +94,7 @@ const About = () => {
 
             <div className="mt-8">
               <a 
-                href="/Josh-Hall-CV-2025.pdf" 
+                href="/Josh-Hall-CV-Oct-2025.pdf" 
                 download
                 className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
