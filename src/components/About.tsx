@@ -99,7 +99,7 @@ const About = () => {
                 className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 <Download size={20} />
-                <span>Télécharger le CV</span>
+                <span>CV</span>
               </a>
             </div>
           </div>
