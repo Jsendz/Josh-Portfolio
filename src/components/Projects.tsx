@@ -31,8 +31,38 @@ const Projects = () => {
   }, []);
 
   const projects = [
-    {
+     {
       id: 1,
+      title: 'Web3 Identity Dashboard',
+      description: 'A modern multi-chain dashboard built with Next.js, RainbowKit, wagmi, and Tailwind CSS.',
+      image: '/dash.png',
+      technologies: ['Nextjs', 'Rainbowkit', 'wagmi','Tailwind css' ],
+      liveUrl: 'https://wallet-dashboard-red.vercel.app/',
+      
+      date: '2025'
+    },
+     {
+      id: 2,
+      title: 'NovaAI – Modern SaaS Landing Page & Dashboard (Next.js + Tailwind)',
+      description: 'NovaAI is a fully responsive, modern SaaS landing page and dashboard concept built with Next.js, TypeScript, and the latest Tailwind CSS.',
+      image: '/nova.png',
+      technologies: ['Nextjs', 'Typescript', 'Tailwin css' ],
+      liveUrl: 'https://nova-ochre-two.vercel.app/',
+      
+      date: '2025'
+    },
+    {
+      id: 3,
+      title: 'T-Sender Clone',
+      description: 'React/NextJS Static Site - Token Airdropper UI Crypto',
+      image: '/tsender.png',
+      technologies: ['Next.js', 'TypeScript',  'Solidity', ],
+      liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
+      githubUrl: 'https://github.com/Jsendz/TSender',
+      date: '2025'
+    },
+    {
+      id: 4,
       title: 'Ecco Studio',
       description: 'Creative Agency',
       image: '/ecco.png',
@@ -43,7 +73,7 @@ const Projects = () => {
     },
     
     {
-      id: 2,
+      id: 5,
       title: 'Agency Website',
       description: t('description1'),
       image: '/jhcorporate.png',
@@ -53,7 +83,7 @@ const Projects = () => {
       date: '2024'
     },
     {
-      id: 3,
+      id: 6,
       title: 'Digital Agency Website',
       description: t('description2'),
       image: '/jhdigital.png',
@@ -62,16 +92,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/Jsendz/JH-Digital-Services',
       date: '2025'
     },
-    {
-      id: 4,
-      title: 'T-Sender Clone',
-      description: 'React/NextJS Static Site - Token Airdropper UI Crypto',
-      image: '/tsender.png',
-      technologies: ['Next.js', 'TypeScript',  'Solidity', ],
-      liveUrl: 'https://t-sender-ywp75664u-jsendzs-projects.vercel.app/',
-      githubUrl: 'https://github.com/Jsendz/TSender',
-      date: '2025'
-    }
+    
     
    
   ];
