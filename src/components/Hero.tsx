@@ -67,7 +67,7 @@ const Hero = () => {
               </a>
               
               <a
-                href="/Joshua-Sendzul.pdf"
+                href="/Josh-Hall-CV-Oct-25.pdf"
                 download
                 className="flex items-center space-x-2 border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all duration-200"
               >
@@ -94,7 +94,7 @@ const Hero = () => {
                 <Linkedin size={28} />
               </a>
               <a
-                href="mailto:john@example.com"
+                href="mailto:joshuasendzul@gmail.com"
                 className="text-gray-600 hover:text-blue-600 transition-colors duration-200 hover:scale-110 transform"
               >
                 <Mail size={28} />
